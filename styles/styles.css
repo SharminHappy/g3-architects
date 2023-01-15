@@ -1,0 +1,397 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+/* header style */
+.header{
+    /* margin-bottom: 200px;  */
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 1322px;
+    padding-top: 60px;
+    
+}
+.header-nav{
+    display: flex;
+    justify-content: space-around;
+  
+}   
+.header-title{
+    width: 100%;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    /* margin-right: 673px;  */
+    margin-left: 228px;
+    
+
+}
+.header-ul{
+    display: flex;
+    width: 477px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 18px;
+    gap: 50px;
+    list-style-type: none;
+    margin-right: 240px;
+
+       
+}
+/* Brand New Group of Architects style */
+.title{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0%;
+    padding-top: 150px;
+    /* font-weight: 100%; */
+    /* font-weight: 700%;
+    font-size: 64px; */
+    
+}
+.subtitle{
+    font-weight: 100%;
+    font-size: 70px;
+     margin-bottom: 10px; 
+     font-weight: normal;
+    /* gap: 10px; */
+    
+}
+.description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+
+}
+.explore-button{
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF900E;
+     margin-top: 32px;
+    /* margin-left: 870px; */
+    /* margin-right: 870px;  */
+    /* margin-bottom: 200px; */
+    /* justify-content: center;
+     align-items: center; */
+     border-radius: 8px;
+     border: none;
+    
+}
+/* banner */
+.banner{
+    width: 1440px;
+    height: 700px;
+    padding-top: 190px;  
+    margin-right: 240px;
+    margin-left: 530px;
+    border-radius: 8px;
+    align-items: center;
+    justify-content: center;
+     align-items: center; 
+    
+}
+/* features style */
+.team{
+    justify-content: center;
+    align-items: center; 
+    display: flex; 
+    width: 100%;
+    height: 75vh;
+
+}
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 8px;
+    row-gap: 24px;
+    column-gap: 24px;
+
+     
+}
+.team-img{
+    
+    border-radius: 8px;
+    width: 342px;
+height: 342px;
+    
+
+}
+.features{
+    height: 304px;
+width: 537px;
+border-radius: 8px;
+margin-left: 72px;
+
+
+}
+/* featues title using span tag style */
+.features-title{
+    width: 100%;
+    font-weight: 500;
+    font-size: 45px;
+   
+
+}
+.quick-list{
+    color: #727272;
+    font-weight: normal;
+
+}
+.of-our{
+    color: black;
+
+}
+.features-word{
+    color: #FF900E;
+
+
+}
+/* features-subtitle style */
+.features-subtitle
+{
+    color: #727272;
+    font-weight: normal;
+    
+
+}
+/* love and enjoy */
+.love-enjoy-container{
+     width: 50%;
+    height: 90vh; 
+    /* width: 800px;
+height: 1059px; */
+    display: flex;
+    margin-left: 500px;
+    margin-bottom: 0px;
+    gap: 54px;
+}
+.love-enjoy{
+    width: 100%;
+    height: 100vh;
+       
+}
+.love-enjoy-title{
+    font-weight: 50px;
+font-size: 45px;
+color: #131313;
+/* border-width: 5px;
+border-left-color: #FF900E;
+border-left-style: solid; */
+border-left: 5px solid #FF900E;
+
+
+}
+.love-enjoy-subtitle p{
+    width: 586px;
+    height: 78px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #727272;
+    margin-top: 24px;
+
+}
+.love-enjoy-list-container{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    justify-content: center;
+   align-items: center;  
+   border-radius: 8px;
+    width: 100%;
+   height: 12vh;  
+   background: #FFFFFF;
+   box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.list h3{
+    padding: 20px 20px 20px ;
+    
+
+}
+.list p{
+    padding-left: 20px;
+    
+}
+.love-enjoy-architect-container{
+    width: 800px;
+height: 1059px;
+}
+.archiect-img{
+    width: 708px;
+    height: 982px;
+    border-radius: 8px;
+    padding-left: 80px;
+     
+}
+.architect-experience{
+width: 342px;
+height: 200px;
+text-align: center;
+border-radius: 8px;
+background: #FF900E;
+justify-content: center;
+align-items: center;
+}
+.architect-experience h1{
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+}
+.architect-experience span{
+    font-size: 30px;
+
+}
+/* some facts */
+.some-facts-container{
+    width: 50%;
+    height: 50vh;
+    margin-left: 500px;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.some-facts-title{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    padding-bottom: 24px;
+
+
+}
+.some-facts-subtitle{
+    font-weight: 400;
+font-size: 16px;
+
+}
+.facts-container{
+    /* justify-content: center;
+    align-items: center; */
+    display: flex;
+    justify-content: space-around;
+        
+}
+.facts-icon{
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-around; 
+    gap: 125px;
+    padding-left: 400px;
+  
+
+}
+.icon-img{
+    width: 241px;
+    height: 200px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    padding: 30px;      
+}
+.icon-img:hover {
+    background-color: cornsilk;
+
+}
+.icon-img img{
+    width: 45.22px;
+height: 45.22px;
+}
+.count{
+    font-weight: 600;
+font-size: 45px;
+color: #424242;
+
+}
+.count-description{
+    font-weight: 600;
+font-size: 20px;
+color: #727272;
+
+}
+/* sponspors-container */
+.sponspors-container{
+    width: 50%;
+    height: 30vh;
+    margin-left: 500px;
+    margin-bottom: 0px;
+    /* position: absolute; */
+    
+
+
+}
+.sponspors{
+    /* width: 542px;
+    height: 129px;  */
+    display: flex;
+    justify-content: space-around; 
+    margin-bottom: 50px;
+
+}
+.sponspors-title{
+    width: 542px;
+    height: 129px;
+    text-align: center;
+    margin-left: 500px;
+    
+
+}
+.sponspors-title h1{
+    position:relative ;
+    left: 80px;
+    width: 326px;
+    height: 53px;
+    font-size: 45px;
+    text-align: center;
+    font-weight: 100;
+    margin-bottom: 24px;
+}
+.sponspors-title p{
+    width: 542px;
+height: 52px;
+     font-weight: 400;
+font-size: 16px;
+text-align: center;
+color: #727272;
+
+}
+.sponspors-icons{
+    display: flex;
+    gap: 250px;
+    filter: grayscale(100%);
+
+}
+ .sponspors-icons:hover{
+    filter: brightness(100%);
+} 
+.icons-img{
+    width: 166.76px;
+    height: 50px;
+
+}
+
+
+
+/* footer style */
+.footer{
+
+    width: 75%;
+    height: 100px;
+    background: #FFF4E7;
+border-radius: 8px;
+margin-left: 500px;
+margin-bottom: 216px;
+    
+}
+.footer-description{
+
+font-weight: 400px;
+font-size: 20px;
+text-align: center;
+color: #424242;
+padding:39px;
+
+}
+
+
