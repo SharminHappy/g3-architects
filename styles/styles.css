@@ -450,7 +450,8 @@ padding:39px;
 
 }
 
-/* Responsive */
+/*  mobile Responsive */
+
 @media only screen and (max-width:688px) {
     .header{
         width: 100%;
@@ -485,10 +486,6 @@ padding:39px;
     .header-ul{
         margin-right: 200px;
     }
-    /* .banner .banner-img{
-        width: auto;
-        height: auto;
-    } */
     .banner{
         width: 100%;
         height: auto;
@@ -553,12 +550,6 @@ padding:39px;
         display: flex;
         flex-direction: column;
     } 
-    .architect-experience{
-        /* height:auto;
-        width: 250px;
-        font-weight: 700px;
-        font-size: 20px; */
-    }
     .design-container{
         height: auto;
         width:auto;
@@ -635,4 +626,5 @@ padding:39px;
     width: 100%;
     margin-left: 0%;
 
+}
 }
